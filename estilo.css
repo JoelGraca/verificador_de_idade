@@ -1,0 +1,54 @@
+body{
+    background: yellow;
+    font: normal 15pt Arial;
+    font-weight: 600;
+}
+header{
+    text-align: center;
+}
+section{
+    background: rgb(64, 62, 62);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgb(250, 3, 3);
+}
+footer{
+    text-align: center;
+}
+#barra1{
+    margin-top: 15px;
+    background: rgb(250, 3, 3);
+    border-radius: 5px;
+    color: rgb(250, 3, 3);
+}
+#barra2{
+    margin-top: 80px;
+    background: rgb(250, 3, 3);
+    border-radius: 5px;
+    color: rgb(250, 3, 3);
+}
+#foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-top: 10px;
+}
+#textano{
+    height: 25px;
+    border-radius: 5px;
+}
+#botao{
+    height: 30px;
+    border-radius: 6px;
+    background: red;
+    color: white;
+    font-weight: 650;
+    border: none;
+}
+#botao:hover{
+    background: rgb(0, 166, 249);
+    color: black;
+}

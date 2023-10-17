@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head><link rel="stylesheet" href="estilo.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <div id="barra1">
+        primeira div
+    </div>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+        <p>Ano de Nascimento: 
+            <input type="number" name="ano" id="textano">
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="radiosex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radiosex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()" id="botao">
+        </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p><strong>&copy; Desenvolvido por Joel da Graça<br>No ano 2023/2024 com HTML, CSS e JS.</strong></p>
+    </footer>
+    <script src="script.js"></script>
+    <div id="barra2">
+        segunda div
+    </div>
+</body>
+</html>
